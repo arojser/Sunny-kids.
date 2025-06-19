@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunny Kids</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #FFF8E1;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 30px;
+      background-color: #E0F7FA;
+    }
+    header img {
+      width: 200px;
+      border-radius: 30px;
+      box-shadow: 0 0 20px #ffce00;
+    }
+    header h1 {
+      color: #00796B;
+      font-size: 36px;
+      margin-top: 20px;
+    }
+    header p {
+      font-size: 20px;
+      color: #00695C;
+    }
+    .language-buttons, .contact-info, .activities, .discounts, .formulario, .reclamaciones, .redes-sociales {
+      padding: 20px;
+      margin: 10px auto;
+      max-width: 800px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #FFCA28;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .formulario form input, .formulario form textarea {
+      display: block;
+      margin: 10px 0;
+      padding: 8px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- LOGO Y BIENVENIDA -->
+  <header>
+    <img src="Logo de la app de la marina.png" alt="Logo SunnyKids">
+    <h1>¡Bienvenidos a Sunny Kids!</h1>
+    <p>La mejor web para actividades divertidas para los pequeños de casa.</p>
+  </header>
+
+  <!-- BOTONES DE IDIOMA -->
+  <section class="language-buttons">
+    <button onclick="alert('Contenido en Español')">Español</button>
+    <button onclick="alert('Contenido en Inglés')">Inglés</button>
+    <button onclick="alert('Contenido en Francés')">Francés</button>
+  </section>
+
+  <!-- CONTACTOS -->
+  <section class="contact-info">
+    <h2>Contactos</h2>
+    <p><strong>Teléfono Alma:</strong> 611-38-49-85</p>
+    <p><strong>Correo Alma:</strong> arojser3005@gmail.com</p>
+    <p><strong>Teléfono Leyre:</strong> 722-80-09-94</p>
+    <p><strong>Correo Leyre:</strong> leyrepricess13@gmail.com</p>
+  </section>
+
+  <!-- ACTIVIDADES -->
+  <section class="activities">
+    <h2>Actividades</h2>
+    <p>Consulta el itinerario completo de actividades para los días 6, 7 y 8 de julio con opciones en español, inglés y francés.</p>
+    <p>Incluye: Pintando con burbujas, Botella de la calma, Plantando lentejas, Personaliza tu mochila, Abanicos con forma, Sales de colores, Regalo para papá y mamá, y Final de temporada.</p>
+  </section>
+
+  <!-- DESCUENTOS -->
+  <section class="discounts">
+    <h2>Descuentos</h2>
+    <p>¡Llévate los 3 días con precio reducido! Además, si vienes con dos familiares, te hacemos un descuento del 50%.</p>
+  </section>
+
+  <!-- FORMULARIO DE INSCRIPCIÓN -->
+  <section class="formulario">
+    <h2>Formulario de inscripción</h2>
+    <form>
+      <input type="text" placeholder="Nombre del niño/a" required>
+      <input type="email" placeholder="Correo electrónico de la madre/padre" required>
+      <input type="text" placeholder="Alergias (si las hay)">
+      <textarea placeholder="Mensaje o petición especial"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- HOJA DE RECLAMACIONES -->
+  <section class="reclamaciones">
+    <h2>Hoja de Reclamaciones y Sugerencias</h2>
+    <textarea placeholder="Escribe aquí tu reclamación o sugerencia..." rows="5"></textarea>
+    <button>Enviar</button>
+  </section>
+
+  <!-- REDES SOCIALES -->
+  <section class="redes-sociales">
+    <h2>Síguenos en redes</h2>
+    <button onclick="window.open('https://www.instagram.com/sunny.kids.ofc', '_blank')">Instagram</button>
+    <button onclick="window.open('https://www.tiktok.com/@sunny.kids.ofc', '_blank')">TikTok</button>
+  </section>
+</body>
+</html>
